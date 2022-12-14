@@ -1,0 +1,360 @@
+
+html{
+  width: 100%;
+  height: 100%;
+  scroll-behavior:
+
+}
+body{
+  width: 100%;
+  height: 100%;
+  background: #B4C3D0;
+    margin: 0;
+    align-items: center;
+  }
+header{
+  height: 40px;
+  background-color: #B4C3D0;
+
+}
+header img{
+  width: 50px;
+  height: 40px;
+  left: 250px;
+  position: relative;
+}
+h1{
+  font-style: oblique;
+  font-family:inherit;
+  font-size: 50px;
+  font-variant: inherit;
+  color: red;
+  background-color: #666666;
+  margin: 10;
+  margin-left: auto;
+  text-align: center;
+  }
+
+  h2{
+  color: #666666;
+  font-size: 22px;
+  }
+
+  h3{
+    font-size: 35px;
+    color: #666666;
+    margin: 10;
+    margin-left: auto;
+    text-align: right;
+    text-decoration: underline;
+    }
+h4{
+      font-style: oblique;
+      font-family:inherit;
+      font-size: 20px;
+      font-variant: inherit;
+      color: #ff0000;
+      background-color: #666666;
+      margin: 10;
+      margin-left: auto;
+      text-align: left;
+      text-transform: uppercase;
+      }
+      h5{
+      color: #114753;
+      font-size: 42px;
+      }
+      h6{
+            font-style: oblique;
+            font-family:inherit;
+            font-size: 20px;
+            font-variant: inherit;
+            color: #ff0000;
+            background-color: #666666;
+            margin: 10;
+            margin-left: auto;
+            text-align: center;
+            text-transform: uppercase;
+            }
+hr{
+      width: 100%;
+  }
+p{
+  font-size: 20px;
+  color: black;
+  margin: 0;
+  text-align: left;
+  }
+a {
+text-decoration: underline;
+background-color: #b4c3d0;
+
+}
+
+a:hover{
+background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  transition:  0.15s ease-in;
+}
+/* Heading Elements  */
+img{
+  width: 350px;
+  height: 200px;
+  }
+
+/* Heading Elements  */
+#myheader{
+  font-size: 30px;
+  color: #666666;
+  padding: 20px;
+}
+
+.myParagraph{
+  font-size: 20px;
+  color: #666666;
+  margin: 0;
+  text-align: right;
+}
+.big{ font-weight: bold;}
+.nav-container{
+float: right;}
+
+.nav-container ul{
+  margin: 10px;
+  float: left;}
+  .nav-container ul li{
+  display: inline-block;}
+
+  .nav-container ul li a{
+      color: #f0f0f0;
+      background-color: #B4C3D0;
+      text-decoration: none;
+      position: relative;
+      top: 0px;
+      right: 250px;
+      margin: 0px 0px 0px 20px;
+      padding: 0px 4px 6px 4px;
+    }
+    .nav-container ul li a:hover{
+      background-color: #ffffff;
+        color: #000000;
+        border: 2px solid #000000;
+        transition:  0.05s ease-in;
+      }
+      /* grid layout*/
+.grid-layout-50 > div{
+border: 1px solid RED;
+padding: 8px;
+
+
+}
+.grid-layout-50{
+display: grid;
+grid-template-columns: 1fr 1fr; /*50% 50%; */
+/*grid-column-gap: 10px;
+grid-row-gap: 10px;*/
+grid-gap: 1em;
+height: 500px;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+.active{
+  border-bottom: 1px solid #000000;
+}
+#test{
+  height: 100%;
+}
+/*Image Landing Page*/
+
+/*#container-bg{
+  background-image: url('Images\img_02.png');
+  background-size: content;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+#
+.content-wrapper{
+  margin-left: 0 auto;
+  width: 80%;
+  text-align: center;
+  position: relative;
+  top: 30%;
+}*/
+.Background-image{
+  background-image: url('Images/backgroundImg4.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 100%;
+
+}
+.fa-brands{
+  color: #114753;
+  font-size: 50px;
+}
+.fa-brands:hover{
+  color: #114753;
+  font-size: 50px;
+}
+
+.btn-down{
+margin: 0 auto;
+  text-align: center;
+
+}
+.btn-down .fa-solid {
+color: #ffffff;
+font-size: 40px;
+position: absolute;
+bottom: 0px;
+transform: translate(-50%, -50%);
+}
+
+/* Adding a video */
+#content-video{
+margin: 0 auto;
+text-align: center;
+padding: 80px 0px 0px 0px;
+}
+iframe{
+margin: 80px 0px 0px 0px;
+width: 560px;
+height: 315px;
+box-shadow: 0px 0px 10px #000000;
+cursor: pointer;
+}
+/*
+video{
+margin: 80px 0px 0px 0px;
+width: 500px;
+box-shadow: 0px 0px 10px #000000;
+cursor: pointer;
+}
+*/
+
+/* services*/
+#introduction-section{
+  margin: 0 auto 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+#grid-layout-33{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 3em;
+  width: 80%;
+  margin: 0 auto;
+}
+#grid-layout-33 .fa-solid, .fa-sharp{
+  color: #666666;
+  font-size: 30px;
+}
+#grid-layout-33 p{
+  color: #666666;
+  font-size: 20px;
+}
+#grid-layout-33 >div{
+  background-color: #f2f2f2;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #000000;
+  margin: 80px auto 40px auto;
+}
+#grid-layout-33>div:hover{
+transition: 0.25s ease-in;
+background-color: #b4c3d0 ;
+}
+
+
+
+/*Footer Style */
+#drid-footer{
+  width: 100%;
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.content-footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.4fr;
+  grid-gap:  3em;
+  padding: 80px 0px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contentt-footer img{
+    width: 40%;
+}
+
+.content-footer a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.content-footer a:hover{
+
+  background-color: #ffffff;
+    color: #666666;
+    border: 2px solid #000000;
+    transition:  0.15s ease-in;
+}
+
+.content-footer ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content-footer ul li{
+    padding: 0px 0px 8px 0px;
+}
+
+.input-newsletter{
+  width: 140px;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #000000;
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.submit-newsletter{
+  background: black;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 10px;
+  width: 100px;
+  height: 35px;
+  border: 1px solid #000000;
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.social-footer li{
+  display: inline;
+  background-color: #666666;
+}
+
+.social-footer .fa-brands{
+  font-size: 28px;
+  padding: 20px 10px 0px 0px;
+  background-color: #666666;
+}
+.social-footer a:hover {
+  border: 1px solid #666666;
+  transition:  0.15s ease-in;
+  background-color: #666666;
+}
+
+/* RGB- RED GREEN BLUE */
+/*16 Hexsadecimal Degits: 0-9 A B C D E F
+  #00   00  00
+   RED  GREEN BLUE
+ GO TO https://www.color-hex.com/ for coloe hexa code
+*/
